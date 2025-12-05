@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -270,13 +266,11 @@ session_start();
             <a href="pembayaran.php">Pembayaran</a>
         </div>
         <div class="navbar-login">
-            <?php if (isset($_SESSION['id'])): ?>
-                <span>Welcome, <?php echo $_SESSION['full_name']; ?>!</span>
+                <span>Welcome, !</span>
                 <a href="logout.php">Logout</a>
             <?php else: ?>
                 <a href="login.php">Login</a>
                 <a href="pendaftaran.php">Register</a>
-            <?php endif; ?>
         </div>
     </nav>
 
@@ -370,3 +364,4 @@ session_start();
     </footer>
 </body>
 </html>
+

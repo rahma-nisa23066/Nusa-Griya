@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Produk Rumah Minimalis - Nusa Griya</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+      :root {
+        --primary: #b6895b;
+        --bg: #fff;
+        --text-color: #333;
+        --hover-color: #b6895b;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: var(--bg);
+        color: var(--text-color);
+      }
+
+      .tipe-rumah-minimalis-section {
+        padding: 6rem 7% 2rem;
+        background-color: var(--bg);
+      }
+
+      .tipe-rumah-minimalis-section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #513c28;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+       .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.4rem 7%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid #513c28;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        .navbar .navbar-logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #513c28;
+            font-style: italic;
+        }
+
+        .navbar .navbar-logo span {
+            color: var(--primary);
+        }
+
+        .navbar .navbar-nav a {
+            color: black;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0 1rem;
+        }
+
+        .navbar .navbar-nav a:hover {
+            color: var(--primary);
+        }
+
+        .navbar .navbar-extra a {
+            color: black;
+            margin: 0 0.5rem;
+        }
+
+        .navbar .navbar-extra a:hover {
+            color: var(--primary);
+        }
+
+        #menu {
+            display: none;
+        }
+
+      .product-detail-section {
+        padding: 6rem 7%;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+      }
+
+      .product-detail-section img {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .product-info h1 {
+        font-size: 2.5rem;
+        color: #513c28;
+      }
+
+      .product-info p {
+        font-size: 1rem;
+        line-height: 1.8;
+        color: #666;
+      }
+
+      .product-info .price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary);
+      }
+
+      .product-info .specs {
+        font-size: 1.1rem;
+        color: #333;
+        margin: 1rem 0;
+      }
+
+      .product-info .specs ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      .product-info .specs ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      .product-info .action-buttons {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .product-info .btn {
+        padding: 0.8rem 1.5rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+        background-color: var(--primary);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .product-info .btn:hover {
+        background-color: var(--hover-color);
+      }
+
+      .product-info .btn-secondary {
+        background-color: #b6895b;
+      }
+
+      .product-info .btn-secondary:hover {
+        background-color: #999;
+      }
+    </style>
+  </head>
+  <body>
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Nusa<span>Griya</span>.</a>
+      <div class="navbar-nav">
+          <a href="Home.php" class="active">Home</a>
+          <a href="About us.html">About Us</a>
+          <a href="Informasi.html">Informasi</a>
+          <a href="Tipe Rumah.html">Tipe Rumah</a>
+          <a href="pemesanan.php">Pemesanan</a>
+          <a href="Rating.html">Rate Us</a>
+      </div>
+  </nav>
+
+        <section class="tipe-rumah-minimalis-section" id="tipe rumah minimalis">
+        <h2>Tipe Rumah Minimalis</h2>
+        <div class="tipe-rumah-minimalis-banner"></div>
+
+    <section class="product-detail-section">
+      <img src="./gambar/Rumah Minimalis 1.jpeg" alt="Gambar Produk" />
+
+      <div class="product-info">
+        <h1>Rumah Minimalis Tipe Simple Elegancen</h1>
+        <p>
+          Rumah minimalis dengan desain yang simpel namun tetap elegan. Cocok untuk keluarga kecil atau pasangan muda yang baru memulai rumah tangga.
+        </p>
+
+        <p class="price">Rp500.000.000</p>
+
+        <div class="specs">
+          <h3>Spesifikasi</h3>
+          <ul>
+            <li>Luas Bangunan: 60 m²</li>
+            <li>Luas Tanah: 72 m²</li>
+            <li>Kamar Tidur: 2</li>
+            <li>Kamar Mandi: 1</li>
+            <li>Carport: 1 mobil</li>
+          </ul>
+        </div>
+
+        <div class="action-buttons">
+          <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+        </div>
+      </div>
+    </section>
+
+   <section class="product-detail-section">
+    <img src="./gambar/Rumah minimalis 2.jpeg" alt="Gambar Produk" />
+
+    <div class="product-info">
+      <h1>Rumah Minimalis Tipe Scandinavian</h1>
+      <p>
+        Rumah minimalis dengan desain modern yang nyaman dan elegan, ideal untuk
+        keluarga kecil. Terletak di lokasi strategis dengan akses mudah ke pusat
+        kota dan fasilitas umum.
+      </p>
+
+      <p class="price">Rp850.000.000</p>
+
+      <div class="specs">
+        <h3>Spesifikasi</h3>
+        <ul>
+          <li>Luas Bangunan: 90 m²</li>
+          <li>Luas Tanah: 110 m²</li>
+          <li>Kamar Tidur: 3</li>
+          <li>Kamar Mandi: 2</li>
+          <li>Carport: 1 mobil</li>
+          <li>Kamar tidur utama dengan balkon</li>
+        </ul>
+      </div>
+
+      <div class="action-buttons">
+        <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+      </div>
+    </div>
+  </section>
+
+   <section class="product-detail-section">
+    <img src="./gambar/Rumah minimalis 3.jpeg" alt="Gambar Produk" />
+
+    <div class="product-info">
+      <h1>Rumah Minimalis Tipe Urban Chic</h1>
+      <p>
+        Rumah minimalis yang bergaya urban dengan ruang terbuka dan pencahayaan alami. Cocok untuk keluarga kecil yang menginginkan hunian modern di tengah kota.
+      </p>
+
+      <p class="price">Rp950.000.000</p>
+
+      <div class="specs">
+        <h3>Spesifikasi</h3>
+        <ul>
+          <li>Luas Bangunan: 100 m²</li>
+          <li>Luas Tanah: 120 m²</li>
+          <li>Kamar Tidur: 3</li>
+          <li>Kamar Mandi: 2</li>
+          <li>Garasi: 1 mobil</li>
+          <li>Ruang tamu dengan jendela kaca besar</li>
+        </ul>
+      </div>
+
+      <div class="action-buttons">
+        <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+      </div>
+    </div>
+  </section>
+
+     <section class="product-detail-section">
+        <img src="./gambar/Rumah minimalis 4.jpeg" alt="Gambar Produk" />
+
+        <div class="product-info">
+          <h1>Rumah Minimalis Tipe Modern Loft</h1>
+          <p>
+            Rumah minimalis dengan sentuhan modern loft yang memaksimalkan ruang vertikal dan pencahayaan. Sangat cocok untuk mereka yang menyukai desain ruang terbuka dengan sentuhan mewah.
+          </p>
+    
+          <p class="price">Rp1.200.000.000</p>
+
+          <div class="specs">
+            <h3>Spesifikasi</h3>
+            <ul>
+              <li>Luas Bangunan: 120 m²</li>
+              <li>Luas Tanah: 140 m²</li>
+              <li>Kamar Tidur: 3</li>
+              <li>Kamar Mandi: 3</li>
+              <li>Garasi: 2 mobil</li>
+              <li>Taman Pribadi</li>
+              <li>Desain dengan konsep loft (langit-langit tinggi)</li>
+            </ul>
+          </div>
+        </section>
+
+     <section class="product-detail-section">
+        <img src="./gambar/Rumah minimalis 5.jpeg" alt="Gambar Produk" />
+
+        <div class="product-info">
+          <h1>Rumah Minimalis Tipe Green Living</h1>
+          <p>
+            Rumah yang dirancang untuk gaya hidup ramah lingkungan, dengan penggunaan material alami dan tata ruang yang mendukung ventilasi serta pencahayaan alami yang maksimal.
+    
+          <p class="price">Rp1.500.000.000</p>
+
+          <div class="specs">
+            <h3>Spesifikasi</h3>
+            <ul>
+              <li>Luas Bangunan: 140 m²</li>
+              <li>Luas Tanah: 160 m²</li>
+              <li>Kamar Tidur: 3</li>
+              <li>Kamar Mandi: 3</li>
+              <li>Garasi: 2 mobil</li>
+              <li>Taman Pribadi</li>
+              <li>Sistem pengelolaan air hujan untuk irigasi taman</li>
+            </ul>
+          </div>
+
+          <div class="action-buttons">
+            <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+          </div>
+        </div>
+      </section>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

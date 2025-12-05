@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Produk Rumah Minimalis - Nusa Griya</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+      :root {
+        --primary: #b6895b;
+        --bg: #fff;
+        --text-color: #333;
+        --hover-color: #b6895b;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: var(--bg);
+        color: var(--text-color);
+      }
+
+      .tipe-rumah-mewah-section {
+        padding: 6rem 7% 2rem;
+        background-color: var(--bg);
+      }
+
+      .tipe-rumah-mewah-section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #513c28;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+       .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.4rem 7%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid #513c28;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        .navbar .navbar-logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #513c28;
+            font-style: italic;
+        }
+
+        .navbar .navbar-logo span {
+            color: var(--primary);
+        }
+
+        .navbar .navbar-nav a {
+            color: black;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0 1rem;
+        }
+
+        .navbar .navbar-nav a:hover {
+            color: var(--primary);
+        }
+
+        .navbar .navbar-extra a {
+            color: black;
+            margin: 0 0.5rem;
+        }
+
+        .navbar .navbar-extra a:hover {
+            color: var(--primary);
+        }
+
+        #menu {
+            display: none;
+        }
+
+      .product-detail-section {
+        padding: 6rem 7%;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+      }
+
+      .product-detail-section img {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .product-info h1 {
+        font-size: 2.0rem;
+        color: #513c28;
+      }
+
+      .product-info p {
+        font-size: 1rem;
+        line-height: 1.8;
+        color: #666;
+      }
+
+      .product-info .price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary);
+      }
+
+      .product-info .specs {
+        font-size: 1.1rem;
+        color: #333;
+        margin: 1rem 0;
+      }
+
+      .product-info .specs ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      .product-info .specs ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      .product-info .action-buttons {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .product-info .btn {
+        padding: 0.8rem 1.5rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+        background-color: var(--primary);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .product-info .btn:hover {
+        background-color: var(--hover-color);
+      }
+
+      .product-info .btn-secondary {
+        background-color: #b6895b;
+      }
+
+      .product-info .btn-secondary:hover {
+        background-color: #999;
+      }
+    </style>
+  </head>
+  <body>
+     <nav class="navbar">
+      <a href="#" class="navbar-logo">Nusa<span>Griya</span>.</a>
+      <div class="navbar-nav">
+          <a href="Home.php" class="active">Home</a>
+          <a href="About us.html">About Us</a>
+          <a href="Informasi.html">Informasi</a>
+          <a href="Tipe Rumah.html">Tipe Rumah</a>
+          <a href="pemesanan.php">Pemesanan</a>
+          <a href="Rating.html">Rate Us</a>
+      </div>
+  </nav>
+        <section class="tipe-rumah-mewah-section" id="tipe rumah mewah">
+        <h2>Tipe Rumah Mewah</h2>
+        <div class="tipe-rumah-mewah-banner"></div>
+
+    <section class="product-detail-section">
+      <img src="./gambar/rumah mewah.jpeg" alt="Gambar Produk" />
+
+      <div class="product-info">
+        <h1>Rumah Mewah Tipe Contemporary Urban</h1>
+        <p>
+            Rumah dengan konsep urban kontemporer, memadukan kemewahan dan teknologi modern. Setiap detail dirancang untuk menciptakan kenyamanan dengan tata ruang yang efisien dan estetika minimalis.
+        </p>
+
+        <p class="price">Rp5.800.000.000</p>
+
+        <div class="specs">
+          <h3>Spesifikasi</h3>
+          <ul>
+            <li>Luas Bangunan: 420 m²</li>
+            <li>Luas Tanah: 500 m²</li>
+            <li>Kamar Tidur: 4</li>
+            <li>Kamar Mandi: 5</li>
+            <li>Garasi: 2 mobil dengan sistem otomatis</li>
+            <li>Home office</li>
+            <li>Kolam renang infinity</li>
+            <li>Smart home system</li>
+          </ul>
+        </div>
+
+        <div class="action-buttons">
+          <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+        </div>
+      </div>
+    </section>
+
+   <section class="product-detail-section">
+    <img src="./gambar/rumah mewah penthouse.jpeg" alt="Gambar Produk" />
+
+    <div class="product-info">
+      <h1>Rumah Mewah Tipe Modern Penthouse</h1>
+      <p>
+        Mengusung gaya arsitektur modern dengan konsep open space, rumah ini dirancang untuk keluarga yang menginginkan privasi tinggi dan fasilitas premium. Cocok untuk kaum profesional yang mencari rumah dengan desain futuristik.
+      </p>
+
+      <p class="price">Rp8.000.000.000</p>
+
+      <div class="specs">
+        <h3>Spesifikasi</h3>
+        <ul>
+          <li>Luas Bangunan: 500 m²</li>
+          <li>Luas Tanah: 700 m²</li>
+          <li>Kamar Tidur: 6</li>
+          <li>Kamar Mandi: 7</li>
+          <li>Private Gyml</li>
+          <li>Lift Pribadi</li>
+          <li>Home Theater</li>
+          <li>Perpustakaan Pribadi</li>
+        </ul>
+      </div>
+
+      <div class="action-buttons">
+        <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+      </div>
+    </div>
+  </section>
+
+   <section class="product-detail-section">
+    <img src="./gambar/rumah renda.jpeg" alt="Gambar Produk" />
+
+    <div class="product-info">
+      <h1>Rumah Mewah Tipe Eco Luxury Villa</h1>
+      <p>
+        Dirancang dengan konsep ramah lingkungan, rumah ini menawarkan kemewahan yang berkelanjutan. Setiap elemen dipertimbangkan untuk menciptakan dampak minimal terhadap lingkungan, tanpa mengorbankan kenyamanan dan gaya hidup premium.
+
+      </p>
+
+      <p class="price">Rp9.5000.000.000</p>
+
+      <div class="specs">
+        <h3>Spesifikasi</h3>
+        <ul>
+          <li>Luas Bangunan: 750 m²</li>
+          <li>Luas Tanah: 900 m²</li>
+          <li>Kamar Tidur: 6</li>
+          <li>Kamar Mandi: 8</li>
+          <li>Kolam renang eco-friendly</li>
+          <li>Panel Surya</li>
+          <li>Sistem daul ulang air hujan</li>
+          <li>Area Yoga Outdor</li>
+          <li>Garasi : 3 mobil</li>
+        </ul>
+      </div>
+
+      <div class="action-buttons">
+        <a href="Tipe Rumah.html" class="btn btn-secondary">Kembali</a>
+      </div>
+    </div>
+  </section>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
